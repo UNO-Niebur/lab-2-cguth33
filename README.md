@@ -1,58 +1,50 @@
-# Lab2 - CIST 1600
+# Lab2 - CIST 1600 Variables and Arithmetic
 Variables, assignment, numerical types, arithmetic operators
 
-## Magic8Ball.py
-Create a program that will allow the user to ask a question, then provide a random response like a Magic 8 Ball.
+## Purpose
 
-- A traditional Magic 8 Ball has 20 possible answers:
-- As I see it, yes.
-- Ask again later.
-- Better not tell you now.
-- Cannot predict now.
-- Concentrate and ask again.
-- Don’t count on it.
-- It is certain.
-- It is decidedly so.
-- Most likely.
-- My reply is no.
-- My sources say no.
-- Outlook not so good.
-- Outlook good.
-- Reply hazy, try again.
-- Signs point to yes.
-- Very doubtful.
-- Without a doubt.
-- Yes.
-- Yes – definitely.
-- You may rely on it.
+This lab gives you practice with:
+- variables and assignments
+- numeric data types
+- arithmetic operators
+- type conversion
 
-You may select to use these or answers you have created. They key is that they are given a random answer to the question they ask.
+You will complete two Python programs in this repository.
 
-How to create a list of possible answers:
-```
-answers = ["thing 1", "thing 2"] # Each item must be in quotes, separated by a comma.
-```
-Since we imported random at the top of our file, we can use the following code to select a random item from the list.
-```
-response = random.choice(answers)
-```
----
-## FutureTime.py
-Create a program that asks the user for a number of hours and minutes, then computes the time it will be when those hours/minutes have passed based on the current time obtained from the system.
-
-We have not yet talked about if statements or other control structures. You should be able to accurately get the future time using only mathematical operations discussed in Lecture 2.
-
-#### Things to consider
-- How do I get input from the user?
-- Is this input in the correct data type?
-  - How do I convert data types if it is not?
-- 9 + 7 = 16... how do I convert to a 1-12 hour range without if statements?
-- How do I use these variable so print info in the "HH:MM" format?
+Detailed explanations and examples are provided in **Canvas**.
 
 ---
 
-## Testing your code
-You may not actually know that your code works until you fully test what you have written. It is often a good idea to get someone else to run your program, they may do something you had not anticipated which could show you a possible flaw or at least a design issue.
+## Files to Complete
 
-## End of class
-Submit your work in GitHub Classroom
+### Magic8Ball.py
+Create a program that:
+- prompts the user for a question
+- randomly selects a response
+- displays the response
+
+Use a list of possible answers and `random.choice()`.
+
+---
+
+### FutureTime.py
+Create a program that:
+- asks the user for hours and minutes
+- calculates the future time based on the current system time
+- displays the result in `HH:MM` format
+
+Use only arithmetic operations discussed in Lecture 2.
+Do **not** use `if` statements.
+
+---
+
+## Required File Headers
+
+Both files must include completed header comments:
+
+```python
+# Name:
+# Date:
+# Assignment: Lab 2
+# Purpose:
+
